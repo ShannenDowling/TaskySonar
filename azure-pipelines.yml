@@ -39,4 +39,6 @@ steps:
 
 - task: SonarCloudPublish@1
   inputs:
-
+    SonarCloud: 'a199e3cf-fcb4-46df-a1ff-872f9805d55a'
+    organization: 'shannendowling-github'
+    projectKey: 'ShannenDowling_TaskySonar'
